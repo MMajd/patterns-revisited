@@ -13,7 +13,7 @@ public class BridgeDriver {
 
         Manuscript book = new Book(new StandardForammter(), "Brave New World",
                 "If one's different, one's bound to be lonely");
-        Manuscript paper = new ResearchPaper(new Academic(), "Garbage", "Long formatted garbage");
+        Manuscript paper = new ResearchPaper(new AcademicFormatter(), "Garbage", "Long formatted garbage");
 
         List<Manuscript> manuscripts = new ArrayList<>(Arrays.asList(new Manuscript[] { book, paper }));
 
