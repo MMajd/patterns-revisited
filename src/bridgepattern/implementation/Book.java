@@ -1,16 +1,17 @@
-package bridge.implementation;
+package bridgepattern.implementation;
 
-import bridge.abstraction.Manuscript;
-import bridge.bridge.IFormatter;
+import bridgepattern.abstraction.Manuscript;
+import bridgepattern.bridge.IFormatter;
 
 public class Book extends Manuscript {
-    private final IFormatter formatter;
-    public Book(final IFormatter formatter) {
-        this.formatter = formatter;
-    }
-
+    /**
+     * 
+     * @param formatter
+     * @param title
+     * @param content
+     */
     public Book(final IFormatter formatter, String title, String content) {
-        this(formatter);
+        super(formatter);
         this.title = title;
         this.content = content;
     }

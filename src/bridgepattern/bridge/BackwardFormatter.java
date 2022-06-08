@@ -1,6 +1,6 @@
-package bridge.bridge;
+package bridgepattern.bridge;
 
-public class BackwardFormatter implements  IFormatter {
+public class BackwardFormatter implements IFormatter {
 
     @Override
     public void format(String title, String content) {

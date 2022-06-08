@@ -1,6 +1,6 @@
-package bridge.bridge;
+package bridgepattern.bridge;
 
-public class AcademiaFormatter implements  IFormatter {
+public class Academic implements IFormatter {
     @Override
     public void format(String title, String content) {
         System.out.printf("%s\n", "-".repeat(22));
