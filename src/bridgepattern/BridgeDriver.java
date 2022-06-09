@@ -3,11 +3,13 @@ package bridgepattern;
 import bridgepattern.abstraction.*;
 import bridgepattern.bridge.*;
 import bridgepattern.implementation.*;
+import driver.PatternDriver;
 
 import java.util.*;
 
-public class BridgeDriver {
+public class BridgeDriver implements PatternDriver {
 
+    @Override
     public void run() {
         System.out.println();
 
