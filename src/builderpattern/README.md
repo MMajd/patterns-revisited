@@ -33,7 +33,7 @@ PRODUCT
 
 There could be different types of products that have the same base class, but we should avoid this situation as our goal is to reduce the complexity not to add more complexity
 
-**A VARIATIONS OF THIS PATTER THAT DOES NOT IMPLEMENT ALL PLAYERS** such as StringBuilder, that have the builder and product, but there's no director
+**THERE ARE VARIATIONS OF THIS PATTERN THAT DO NOT IMPLEMENT ALL PLAYERS** such as StringBuilder, that have the builder and product, but there's no director
 
 **Problems leed to using build pattern**
 
