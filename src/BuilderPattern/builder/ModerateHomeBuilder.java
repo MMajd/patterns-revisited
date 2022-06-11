@@ -1,6 +1,6 @@
-package builderpattern.builder;
+package BuilderPattern.builder;
 
-import builderpattern.product.*;
+import BuilderPattern.product.*;
 
 public class ModerateHomeBuilder extends HomeBuilder {
 

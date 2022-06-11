@@ -1,7 +1,7 @@
-package bridgepattern.implementation;
+package BridgePattern.implementation;
 
-import bridgepattern.abstraction.Manuscript;
-import bridgepattern.bridge.IFormatter;
+import BridgePattern.abstraction.Manuscript;
+import BridgePattern.bridge.IFormatter;
 
 public class Book extends Manuscript {
     /**

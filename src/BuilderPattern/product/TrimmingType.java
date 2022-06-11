@@ -1,4 +1,4 @@
-package builderpattern.product;
+package BuilderPattern.product;
 
 public enum TrimmingType {
     EXPENSIVE("EXPENSIVE"),

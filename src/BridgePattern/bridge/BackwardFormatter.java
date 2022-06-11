@@ -1,4 +1,4 @@
-package bridgepattern.bridge;
+package BridgePattern.bridge;
 
 public class BackwardFormatter implements IFormatter {
 

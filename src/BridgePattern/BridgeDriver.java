@@ -1,11 +1,12 @@
-package bridgepattern;
+package BridgePattern;
 
-import bridgepattern.abstraction.*;
-import bridgepattern.bridge.*;
-import bridgepattern.implementation.*;
 import driver.PatternDriver;
 
 import java.util.*;
+
+import BridgePattern.abstraction.*;
+import BridgePattern.bridge.*;
+import BridgePattern.implementation.*;
 
 public class BridgeDriver implements PatternDriver {
 

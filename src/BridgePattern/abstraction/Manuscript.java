@@ -1,6 +1,6 @@
-package bridgepattern.abstraction;
+package BridgePattern.abstraction;
 
-import bridgepattern.bridge.IFormatter;
+import BridgePattern.bridge.IFormatter;
 
 public abstract class Manuscript {
     protected final IFormatter formatter;

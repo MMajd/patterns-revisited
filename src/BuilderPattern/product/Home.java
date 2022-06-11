@@ -1,4 +1,4 @@
-package builderpattern.product;
+package BuilderPattern.product;
 
 import java.util.Objects;
 

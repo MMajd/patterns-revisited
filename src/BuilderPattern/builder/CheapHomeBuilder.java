@@ -1,10 +1,10 @@
-package builderpattern.builder;
+package BuilderPattern.builder;
 
-import builderpattern.product.ConstructionType;
-import builderpattern.product.FoundationType;
-import builderpattern.product.FramingType;
-import builderpattern.product.TrimmingType;
-import builderpattern.product.WallType;
+import BuilderPattern.product.ConstructionType;
+import BuilderPattern.product.FoundationType;
+import BuilderPattern.product.FramingType;
+import BuilderPattern.product.TrimmingType;
+import BuilderPattern.product.WallType;
 
 public class CheapHomeBuilder extends HomeBuilder {
 
