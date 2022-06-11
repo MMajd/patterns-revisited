@@ -7,7 +7,7 @@ In nutshell chain of responsibility is an ordered list of message handlers that 
 - Process specific type of message, or
 - Pass the message along to the next message handler in the chain
 
-Pattern traits
+**Pattern traits**
 
 - The senders is aware of only one reciever
 - Each reciever is only aware of the next reciever
@@ -16,16 +16,16 @@ Pattern traits
 - The first reciever to handle the message terminate the chain
 - The order of the reciever list matters
 
-Participants
+**Participants**
 
 - Client code
 - Abstract message handler
 - Concrete message handlers
 
-When to use
+**When to use**
 
 - More than one message handler for a message
 - The appropriate handler is not explicitly known by the sender
 - The set of handlers can by dyamically defined
 
-**NOTE: At the end of the chain we could implement null object pattern to always deny the request instead of thrownig an error**
+**NOTE: at the end of the chain we could implement null object pattern to always deny the request instead of thrownig an error**

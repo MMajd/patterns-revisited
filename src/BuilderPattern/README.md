@@ -10,6 +10,8 @@ the director takes care of this problem
 
 DIRECTOR -> uses a BUILDER whose implemented by a CONCRETE BUILDER how knows what do at each stage of PRODUCT creation process
 
+**Participants**
+
 DIRECTOR
 
 - puts the steps of creation in the right order
@@ -33,9 +35,10 @@ PRODUCT
 
 There could be different types of products that have the same base class, but we should avoid this situation as our goal is to reduce the complexity not to add more complexity
 
-**THERE ARE VARIATIONS OF THIS PATTERN THAT DO NOT IMPLEMENT ALL PLAYERS** such as StringBuilder, that have the builder and product, but there's no director
+**Variations**
+There are variations of this pattern that do not implement all players such as builder with static method to setup the paramter and then produce the product (ex: bulider.withX().withY().build()) and other variations like StringBuilder, that have the builder and product, but there's no director
 
-**Problems leed to using build pattern**
+**When to use**
 
 - Too many parameters being set in the constructor
 - Parameters are order dependent so using setters instead of initialization in the constructor may be harm the construction logic
