@@ -1,7 +1,7 @@
-package builderpatter.director;
+package builderpattern.director;
 
-import builderpatter.builder.HomeBuilder;
-import builderpatter.product.Home;
+import builderpattern.builder.HomeBuilder;
+import builderpattern.product.Home;
 
 public class EngineeringCompany {
     private final HomeBuilder builder;

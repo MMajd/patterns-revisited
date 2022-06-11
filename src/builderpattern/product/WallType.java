@@ -1,4 +1,4 @@
-package builderpatter.product;
+package builderpattern.product;
 
 public enum WallType {
     WOODEN_WALLS("WOODEN WALLS"),

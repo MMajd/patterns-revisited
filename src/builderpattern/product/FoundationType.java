@@ -1,4 +1,4 @@
-package builderpatter.product;
+package builderpattern.product;
 
 public enum FoundationType {
     WOODEN_FOUNDATION("WOODEN FOUNDATION"),

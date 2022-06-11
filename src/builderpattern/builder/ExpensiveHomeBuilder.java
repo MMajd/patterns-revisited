@@ -1,10 +1,10 @@
-package builderpatter.builder;
+package builderpattern.builder;
 
-import builderpatter.product.ConstructionType;
-import builderpatter.product.FoundationType;
-import builderpatter.product.FramingType;
-import builderpatter.product.TrimmingType;
-import builderpatter.product.WallType;
+import builderpattern.product.ConstructionType;
+import builderpattern.product.FoundationType;
+import builderpattern.product.FramingType;
+import builderpattern.product.TrimmingType;
+import builderpattern.product.WallType;
 
 public class ExpensiveHomeBuilder extends HomeBuilder {
 

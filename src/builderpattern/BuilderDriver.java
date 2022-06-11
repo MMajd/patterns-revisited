@@ -1,8 +1,8 @@
-package builderpatter;
+package builderpattern;
 
-import builderpatter.builder.ExpensiveHomeBuilder;
-import builderpatter.builder.ModerateHomeBuilder;
-import builderpatter.director.EngineeringCompany;
+import builderpattern.builder.ExpensiveHomeBuilder;
+import builderpattern.builder.ModerateHomeBuilder;
+import builderpattern.director.EngineeringCompany;
 import driver.PatternDriver;
 
 public class BuilderDriver implements PatternDriver {

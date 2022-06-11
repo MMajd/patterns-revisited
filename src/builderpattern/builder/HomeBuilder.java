@@ -1,6 +1,6 @@
-package builderpatter.builder;
+package builderpattern.builder;
 
-import builderpatter.product.Home;
+import builderpattern.product.Home;
 
 public abstract class HomeBuilder {
     protected Home home;
