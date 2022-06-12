@@ -1,5 +1,5 @@
 package driver;
 
 public interface PatternDriver {
-    void run();
+    void run(Object... args);
 }

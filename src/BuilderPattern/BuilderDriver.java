@@ -8,7 +8,7 @@ import driver.PatternDriver;
 public class BuilderDriver implements PatternDriver {
 
     @Override
-    public void run() {
+    public void run(Object... args) {
         /** could add setter for homebuilder */
         EngineeringCompany company = new EngineeringCompany(new ModerateHomeBuilder());
 

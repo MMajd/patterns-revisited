@@ -11,7 +11,7 @@ import BridgePattern.implementation.*;
 public class BridgeDriver implements PatternDriver {
 
     @Override
-    public void run() {
+    public void run(Object... args) {
         System.out.println();
 
         Manuscript book = new Book(new StandardForammter(), "Brave New World",

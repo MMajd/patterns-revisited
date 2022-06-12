@@ -9,7 +9,7 @@ import driver.PatternDriver;
 
 public class ChainOfResposibilityDriver implements PatternDriver {
     @Override
-    public void run() {
+    public void run(Object... args) {
         IExpenseHandler ahamd = new ExpenseHandler(new Employee("ahmad", 1000)); // regular employee
         IExpenseHandler yasser = new ExpenseHandler(new Employee("yasser", 2000)); // manager
         IExpenseHandler khaled = new ExpenseHandler(new Employee("khaled", 4000)); // vice president
