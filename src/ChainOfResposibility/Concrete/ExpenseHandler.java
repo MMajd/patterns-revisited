@@ -12,7 +12,11 @@ public class ExpenseHandler implements IExpenseHandler {
 
     public ExpenseHandler(final IExpenseApprover approver) {
         this.approver = approver;
-        next = EndOfChainHandler.instance();
+        try {
+            next = EndOfChainHandler.instance();
+        } catch (IllegalAccessException e) {
+            throw new RuntimeException(e);
+        }
     }
 
     @Override

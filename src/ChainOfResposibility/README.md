@@ -1,6 +1,7 @@
+
 ## Chain of Responsibility Pattern
 
-Decoupling the sender of a message from the reciever
+Decoupling the sender of a message from the receiver 
 
 In nutshell chain of responsibility is an ordered list of message handlers that know how to do two things
 
@@ -9,12 +10,12 @@ In nutshell chain of responsibility is an ordered list of message handlers that 
 
 **Pattern traits**
 
-- The senders is aware of only one reciever
-- Each reciever is only aware of the next reciever
-- Reciever process the message or sent it down the chain
-- Sender does not know who recieved the message
-- The first reciever to handle the message terminate the chain
-- The order of the reciever list matters
+- The senders are aware of only one receiver
+- Each receiver is only aware of the next receiver
+- Receiver process the message or sent it down the chain
+- Sender does not know who received the message
+- The first receiver to handle the message terminate the chain
+- The order of the receiver list matters
 
 **Participants**
 
@@ -26,6 +27,6 @@ In nutshell chain of responsibility is an ordered list of message handlers that 
 
 - More than one message handler for a message
 - The appropriate handler is not explicitly known by the sender
-- The set of handlers can by dyamically defined
+- The set of handlers can be dynamically defined
 
 **NOTE: at the end of the chain we could implement null object pattern to always deny the request instead of thrownig an error**

@@ -10,20 +10,20 @@ import driver.PatternDriver;
 public class ChainOfResposibilityDriver implements PatternDriver {
     @Override
     public void run(Object... args) {
-        IExpenseHandler ahamd = new ExpenseHandler(new Employee("ahmad", 1000)); // regular employee
+        IExpenseHandler ahmad = new ExpenseHandler(new Employee("ahmad", 1000)); // regular employee
         IExpenseHandler yasser = new ExpenseHandler(new Employee("yasser", 2000)); // manager
         IExpenseHandler khaled = new ExpenseHandler(new Employee("khaled", 4000)); // vice president
         IExpenseHandler omar = new ExpenseHandler(new Employee("omar", 7000)); // president
 
-        ahamd
-                .registerNext(yasser)
-                .registerNext(khaled)
-                .registerNext(omar);
+       ahmad 
+            .registerNext(yasser)
+            .registerNext(khaled)
+            .registerNext(omar);
 
         double reportValue = Math.random() * 10_000;
 
         BaseFinancialReport report = new ExpenseReport(reportValue);
 
-        System.out.println(ahamd.approve(report));
+        System.out.println(ahmad.approve(report));
     }
 }
