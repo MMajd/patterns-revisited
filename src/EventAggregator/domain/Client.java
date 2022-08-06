@@ -4,9 +4,13 @@ public class Client {
     private String name;
     private String address;
 
-    public Client(String name, String address) {
+    private Client(String name, String address) {
         this.name = name;
         this.address = address;
+    }
+
+    public static Client of(String name, String address) {
+        return new Client(name, address);
     }
 
     public String getName() {
