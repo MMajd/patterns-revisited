@@ -1,8 +1,8 @@
 package EventAggregator.events;
 
 public abstract class Event<T> {
-    private String type;
-    private T data;
+    private final String type;
+    private final T data;
 
     public Event(String type, T data)  {
         this.type = type;
@@ -10,19 +10,11 @@ public abstract class Event<T> {
     }
 
     public String getType() {
-        return type;
-    }
-
-    public void setType(String type) {
-        this.type = type;
+        return type; // no need to be cloned, string is already immutable
     }
 
     public T getData() {
-        return data;
-    }
-
-    public void setData(T data) {
-        this.data = data;
+        return data; // should be cloned not real reference to data, to prevent contimenation
     }
 
     @Override
