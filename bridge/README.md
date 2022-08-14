@@ -1,4 +1,4 @@
-# bridge Pattern Goal 
+# Bridge Pattern Goal 
 ## Intent
 Decoupling the abstraction (ex: Manuscript) and it's implementation (ex: Book, AcademiaPaper) so that the two can vary independentaly
 
