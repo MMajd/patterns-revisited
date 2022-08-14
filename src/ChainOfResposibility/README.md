@@ -1,14 +1,18 @@
+# Chain of Responsibility Pattern 
 
-## Chain of Responsibility Pattern
-
-Decoupling the sender of a message from the receiver 
-
+## Intent
+Decoupling the sender of a message from the receiver, 
 In nutshell chain of responsibility is an ordered list of message handlers that know how to do two things
 
 - Process specific type of message, or
 - Pass the message along to the next message handler in the chain
 
-**Pattern traits**
+**Type** 
+
+- Behavioral 
+- GOF 
+
+**Traits**
 
 - The senders are aware of only one receiver
 - Each receiver is only aware of the next receiver
