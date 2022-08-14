@@ -6,4 +6,4 @@ Encapsulate the processes involved in obtaining a service with a strong abstract
 
 
 **UML**
-![Service Locator UML Diagram](../../resources/servicelocator_pattern_uml_diagram.jpg)
+![Service Locator UML Diagram](../resources/servicelocator_pattern_uml_diagram.jpg)

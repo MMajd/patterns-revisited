@@ -42,4 +42,4 @@ A system with lots of objects can lead to complexities when a client wants to su
 - When there's several implicit memory management issues
   - Ex: publishers have direct links to subscribers, you have to unregister manually
 
-![img_1.png](../../resources/img.png)
+![img_1.png](../resources/img.png)
