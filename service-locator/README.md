@@ -34,6 +34,17 @@ Encapsulate the processes involved in obtaining a service with a strong abstract
 - Result in better code testability
 
 
+**Consequences**
+
+- Global 
+  - Any client can access
+- Availability
+  - Service may not be loaded
+- Failure 
+  - Client must know how to handle failures
+- Life Cycle 
+  - Doesn't handle inherently the object/services life cycles 
+
 
 **Applicability**
 
