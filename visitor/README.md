@@ -42,6 +42,4 @@ Ex: Comparators in Java follow a very similar pattern to visitor patterns (Mostl
 
 **UML**
 
-![Visitor UML Diagram 1](./src/main/resources/uml.png)
-
-![Visitor UML Diagram 2](./src/main/resources/uml1.png)
+![Visitor UML Diagram 2](./src/main/resources/uml.png)
