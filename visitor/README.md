@@ -6,7 +6,7 @@ Represent an operation to be performed on the elements of an object structure (O
 Visitor lets you define a new operation without changing the classes of the elements on which it operates. 
 
 
-Ex: Comparators in Java follow a very similar pattern to visitor patterns
+Ex: Comparators in Java follow a very similar pattern to visitor patterns (Mostly Startegy)
 
 **Type**
 
@@ -18,7 +18,7 @@ Ex: Comparators in Java follow a very similar pattern to visitor patterns
 
 - Various operations can be done on the elements (Asset interface in ex) on the object structure (Person class in ex)
 - Customized behavior can be introduced by clients, just as Comparators in java 
-- Not knowing all operations/algorithms at development time 
+- Not knowing all operations/algorithms ahead time of development
 
 
 **Advantages**
