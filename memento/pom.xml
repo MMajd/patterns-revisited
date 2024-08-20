@@ -9,8 +9,8 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.mmajd.visitor</groupId>
-    <artifactId>visitor</artifactId>
+    <groupId>com.mmajd.memento</groupId>
+    <artifactId>memento</artifactId>
 
     <dependencies>
         <dependency>
@@ -29,7 +29,7 @@
                         <configuration>
                             <archive>
                                 <manifest>
-                                    <mainClass>com.mmajd.visitor.Main</mainClass>
+                                    <mainClass>com.mmajd.eventaggregator.Main</mainClass>
                                 </manifest>
                             </archive>
                         </configuration>
